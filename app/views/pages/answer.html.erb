@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row justify-content-center pt-5">
+        <div class="col-6">
+            <p class="card p-3"> Question posée : <%= params[:question] %> </p>
+            <p class="card p-3 background-color: yellow"> Réponse : <%= @answer %> </p>
+
+            <div class="btn btn-primary color=white"> <%= link_to "Ask again", ask_path %> </div>
+        </div>
+    </div>
+</div>
